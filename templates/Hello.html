@@ -1,0 +1,34 @@
+{%extends "layout.html" %}
+
+
+{% block title %}<title>statistic</title>{% endblock %}
+{%block body%}
+<!--<h1>statistic</h1>-->
+
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    {% for i in name2 %}
+      <div class="swiper-slide">
+
+    <div class="card">
+    <div class="sliderText">
+       <h3>statistic of page {{i}} is:</h3>
+       
+    </div>
+        <div class="content">
+            <p >{{ ph(i)[1]}}</p>
+    `   </div>
+      </div>
+    </div>
+    {% endfor %}
+</div>
+</div>
+
+
+<a class="next" href="{{ url_for('index') }}">Login Again</a></div>
+
+
+
+
+
+{% endblock %}

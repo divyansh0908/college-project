@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "application.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyansh0908/college-project.git"
+  },
+  "author": "Divyansh Anand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyansh0908/college-project/issues"
+  },
+  "homepage": "https://github.com/divyansh0908/college-project#readme"
+}
