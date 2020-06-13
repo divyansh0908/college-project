@@ -97,6 +97,6 @@ def Words():
 
 
 if __name__=="__main__":
-    app.run(debug=False)
+    app.run(debug=True)
 
 #print(base_changer(423.23,16))
