@@ -11,14 +11,14 @@ def page_selector(a):
         sum2+=100
     ls.sort()
     return ls
-with open("./gujaratiWords.txt", "r") as fh:
+with open("./gujaratiWords.txt", "r",encoding='utf-8') as fh:
     zp=fh.read()
     kp=zp.split()
 def page_viewr(i):
     file="./static/98_SardarPatel/"+str(i)
     new=[]
     try:
-        with open(file, "r") as fh:
+        with open(file, "r", encoding='utf-8') as fh:
             z=fh.read()
             p=z.split()
         for words in p:
@@ -31,7 +31,7 @@ def page_viewr(i):
 def page_view(i):
     xxx="./static/98_SardarPatel/"+str(i)
     try:
-        with open(xxx, "r") as fh:
+        with open(xxx, "r",encoding='utf-8') as fh:
             z=fh.read()
             p=z.split()
 

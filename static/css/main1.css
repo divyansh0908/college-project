@@ -20,7 +20,7 @@ body {
     width: 880px;
     padding: 30px ;
     box-sizing: border-box;
-
+    overflow-y: scroll;
 }
 .card .sliderText{
     position: relative;
@@ -132,6 +132,7 @@ body {
     box-sizing: border-box;
     border-radius: 24px;
     font-size: 20px;
+    overflow-y: scroll;
 
 }
 .card2 .sliderText{
